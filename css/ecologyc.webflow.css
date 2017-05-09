@@ -5,6 +5,18 @@
   background-color: transparent;
 }
 
+.defaultcontainer.cover {
+  height: 400px;
+  max-height: 600px;
+  margin-top: 37px;
+  margin-bottom: 37px;
+  background-image: url('../images/Sketch1.jpg');
+  background-position: -13px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
 .section {
   margin-top: 0px;
   background-image: -webkit-linear-gradient(270deg, #fff, #fff);
@@ -17,8 +29,8 @@
 }
 
 .phil {
-  padding-top: 125px;
-  padding-bottom: 125px;
+  padding-top: 198px;
+  padding-bottom: 198px;
   background-image: url('../images/pexels-photo-27031.jpg');
   background-position: 0px 0px;
   background-size: cover;
@@ -37,7 +49,7 @@
   font-family: Raleway, sans-serif;
   color: #fff;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -70,6 +82,10 @@
 
 .service1 {
   padding: 20px;
+}
+
+.service1.arch {
+  margin-top: 11px;
 }
 
 .heading-3 {
@@ -160,7 +176,7 @@
 }
 
 .paragraph-3 {
-  max-width: 800px;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
   background-color: transparent;
@@ -278,6 +294,33 @@
   font-weight: 600;
 }
 
+.image {
+  padding-top: 0px;
+  padding-bottom: 21px;
+}
+
+.section-2 {
+  height: 1200px;
+  background-image: url('../images/O7MF5N0.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heading-6 {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  padding-top: 305px;
+  padding-bottom: 305px;
+  font-family: Raleway, sans-serif;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 3px;
+}
+
 html.w-mod-js *[data-ix="fixednavigation"] {
   -webkit-transform: translate(0px, -100%);
   -ms-transform: translate(0px, -100%);
@@ -285,6 +328,9 @@ html.w-mod-js *[data-ix="fixednavigation"] {
 }
 
 @media (max-width: 991px) {
+  .defaultcontainer.cover {
+    background-position: -300px 0px;
+  }
   .icon {
     color: #fff;
   }
@@ -308,7 +354,18 @@ html.w-mod-js *[data-ix="fixednavigation"] {
   }
 }
 
+@media (max-width: 767px) {
+  .defaultcontainer.cover {
+    background-position: -383px 0px;
+  }
+}
+
 @media (max-width: 479px) {
+  .defaultcontainer.cover {
+    height: 200px;
+    background-position: 55% 50%;
+    background-size: cover;
+  }
   .paragraph-3 {
     max-width: 270px;
   }

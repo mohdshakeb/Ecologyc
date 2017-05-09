@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com -->
-<!--  Last Published: Mon May 08 2017 04:02:36 GMT+0000 (UTC)  -->
+<!--  Last Published: Tue May 09 2017 12:35:42 GMT+0000 (UTC)  -->
 <html data-wf-page="590d976bbc2aec6239271d2c" data-wf-site="590d976bbc2aec6239271d2b">
 <head>
   <meta charset="utf-8">
-  <title>Ecologyc</title>
+  <title>Ecologyc - Mumbai</title>
+  <meta content="We believe that good design is inherently sustainable. We work with architects and developers to develop a holistically sustainable solution for projects sited in either an urban or rural scenario, irrespective of whether they want to pursue a green building rating or not." name="description">
+  <meta content="Ecologyc - Mumbai" property="og:title">
+  <meta content="We believe that good design is inherently sustainable. We work with architects and developers to develop a holistically sustainable solution for projects sited in either an urban or rural scenario, irrespective of whether they want to pursue a green building rating or not." property="og:description">
+  <meta content="summary" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
@@ -27,19 +31,19 @@
     <div class="defaultcontainer w-container">
       <a class="w-nav-brand" href="#"><img sizes="200px" src="images/logo-white-03.png" srcset="images/logo-white-03-p-500.png 500w, images/logo-white-03-p-800.png 800w, images/logo-white-03-p-1080.png 1080w, images/logo-white-03-p-1600.png 1600w, images/logo-white-03.png 5833w" width="200">
       </a>
-      <nav class="navmobile w-nav-menu" role="navigation"><a class="nav-link-4 w-nav-link" href="#Home">Home</a><a class="nav-link-5 w-nav-link" href="#Work">SERVICES</a><a class="nav-link-6 w-nav-link" href="#Info">Contact</a>
+      <nav class="navmobile w-nav-menu" role="navigation"><a class="nav-link-4 w-nav-link" href="#Home">Home</a><a class="nav-link-5 w-nav-link" href="#Services">SERVICES</a><a class="nav-link-6 w-nav-link" href="#Contact">Contact</a>
       </nav>
       <div class="menu-button w-nav-button">
         <div class="icon w-icon-nav-menu"></div>
       </div>
     </div>
   </div>
-  <div class="navigation">
+  <div class="navigation" id="Home">
     <div class="navbar w-nav" data-animation="over-right" data-collapse="medium" data-duration="400">
       <div class="defaultcontainer w-container">
         <a class="w-nav-brand" href="#"><img sizes="200px" src="images/logo-02-02.png" srcset="images/logo-02-02-p-800.png 800w, images/logo-02-02-p-1080.png 1080w, images/logo-02-02-p-1600.png 1600w, images/logo-02-02-p-2000.png 2000w, images/logo-02-02-p-2600.png 2600w, images/logo-02-02-p-3200.png 3200w, images/logo-02-02.png 5833w" width="200">
         </a>
-        <nav class="navmobileinit w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#Home">Home</a><a class="nav-link-2 w-nav-link" href="#Work">SERVICES</a><a class="nav-link-3 w-nav-link" href="#Info">Contact</a>
+        <nav class="navmobileinit w-nav-menu" role="navigation"><a class="nav-link w-nav-link" href="#Home">Home</a><a class="nav-link-2 w-nav-link" href="#Services">SERVICES</a><a class="nav-link-3 w-nav-link" href="#Contact">Contact</a>
         </nav>
         <div class="menu-button-2 w-nav-button">
           <div class="icon-2 w-icon-nav-menu"></div>
@@ -47,19 +51,24 @@
       </div>
     </div>
   </div>
-  <div class="section" data-ix="show-navigation" id="Home">
-    <div class="defaultcontainer w-container"><img sizes="100vw" src="images/Section-1x.jpg" srcset="images/Section-1x-p-500.jpeg 500w, images/Section-1x-p-1080.jpeg 1080w, images/Section-1x-p-2000.jpeg 2000w, images/Section-1x-p-2600.jpeg 2600w, images/Section-1x-p-3200.jpeg 3200w, images/Section-1x.jpg 7677w">
-    </div>
+  <div class="section" data-ix="show-navigation">
+    <div class="cover defaultcontainer w-container"></div>
   </div>
   <div class="phil">
     <div class="defaultcontainer philcontent w-container">
       <h1 class="heading">GOOD DESIGN IS INHERENTLY SUSTAINABLE</h1>
     </div>
   </div>
-  <div class="services" data-ix="new-interaction" id="Work">
+  <div class="services" data-ix="new-interaction" id="Services">
     <div class="defaultcontainer servicecontent w-container">
       <h1 class="heading-2">OUR SERVICES</h1>
       <div class="row w-row">
+        <div class="w-col w-col-4">
+          <div class="arch service1"><img class="image" src="images/house.png" width="100">
+            <h1 class="heading-3">Architecture</h1>
+            <p class="paragraph-2">Our architectural services include 3 phases – conceptual design, design development and construction administration. We provide you with services such as program development, feasibility studies, space planning, aesthetics and look and feel of the project, construction drawings and documents, site execution assistance and project management.</p>
+          </div>
+        </div>
         <div class="w-col w-col-4">
           <div class="service1"><img src="images/031-renewable-energy-2.png" width="100">
             <h1 class="heading-3">Green Building Certification</h1>
@@ -72,18 +81,12 @@
             <p class="paragraph-2">We provide landscaping services which include hardscape, softscape, outdoor furniture, pavilions, fountains, manmade ponds, sculptures and outdoor lighting. We specialize in eco-landscaping which includes organic farming, setting up of composting pits and sizing biogas plants, rainwater harvesting, aquaponics, fish farming, reed bed system, use of native species and setting up of fish tanks in interior spaces (residential or commercial).</p>
           </div>
         </div>
+      </div>
+      <div class="row w-row">
         <div class="w-col w-col-4">
           <div class="service1"><img src="images/031-solar-energy2.png" width="100">
             <h1 class="heading-3">Solar Passive<br>ArchitecturAL Design</h1>
             <p class="paragraph-2">Solar Passive architectural Design includes evaluating the orientation and form of the building, amount of glazing, design of shading devices for different facades (North, South, East and West), and amount of daylight in the building.</p>
-          </div>
-        </div>
-      </div>
-      <div class="row w-row">
-        <div class="w-col w-col-4">
-          <div class="service1"><img src="images/house.png" width="100">
-            <h1 class="heading-3">Architecture<br>Design</h1>
-            <p class="paragraph-2">We evaluate and help design the building with respect to the Green Building rating categories such as Site Planning, Water Conservation, Energy Efficiency, Materials and Resources, Indoor Environmental Quality and Innovation. We offer USGBC – LEED, IGBC and GRIHA ratings to our customers. We provide comprehensive cost-benefit analysis of green design strategies for the project.</p>
           </div>
         </div>
         <div class="w-col w-col-4">
@@ -104,10 +107,13 @@
   <div class="about">
     <div class="aboutcontent defaultcontainer w-container">
       <h1 class="heading-4">WHAT WE DO</h1>
-      <p class="paragraph-3">We believe that good design is inherently sustainable. We work with architects and developers to develop a holistically sustainable solution for projects sited in either an urban or rural scenario, irrespective of whether they want to pursue a green building rating or not. The main constituents of an environmentally friendly building are preservation of land resources, use of local materials and materials with low embodied energy, better air quality as well as reduction in fuel, electricity and water usage compared to a conventional building.</p>
+      <p class="paragraph-3">We believe that good design is inherently sustainable.
+        <br>We work with architects and developers to develop a holistically sustainable solution for projects sited in either an urban or rural scenario, irrespective of whether they want to pursue a green building rating or not..&nbsp;
+        <br>
+        <br>The main constituents of an environmentally friendly building are preservation of land resources,use of local materials and materials with low embodied energy,better air quality as well as reduction in fuel, electricity and water usage compared to a conventional building</p>
     </div>
   </div>
-  <div class="contact" id="Info">
+  <div class="contact" id="Contact">
     <div class="contactcontent size w-container">
       <div class="w-row">
         <div class="column w-col w-col-7">
